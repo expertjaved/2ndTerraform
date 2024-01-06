@@ -1,6 +1,7 @@
-variable username{}
+variable users{
+        type = list
 
-output printname{
+output printfirst{
   value ="var.username"
 }
 
