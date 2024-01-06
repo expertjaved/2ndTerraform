@@ -3,6 +3,6 @@ variable "users" {
 }
 
 output "printfirst" {
-  value = var.users[0]  # Accessing the first element of the users list
+  value = "${join("," ,var.users)}" # Accessing the first element of the users list
 }
 
