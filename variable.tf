@@ -12,3 +12,4 @@ output helloworldupper{
 
 output hellowordlower {
    value = "${lower(var.users[1])}"
+}
