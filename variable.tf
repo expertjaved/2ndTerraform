@@ -6,7 +6,7 @@ output "printfirst" {
   value = "${join("," ,var.users)}" # Accessing the first element of the users list
 }
 
-output "printfirst" {
+output "arrow" {
   value = "${join("-->" ,var.users)}" 
 }
 output helloworldupper{
