@@ -1,0 +1,6 @@
+we can also define variables values in a separate file and name it terraform.tfvars .
+
+if we want to name the file diffierently then we have to add -var-file on the file name .
+
+like if we named "development.tfvars" then terraform plan -var-file = development.tfvars
+
